@@ -18,31 +18,31 @@
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@500;600&display=swap"
       rel="stylesheet"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
     <header>
-      <div>
+      <div class="container">
         <h1>Bridget Schneider</h1>
         <nav>
-          <ul>
+          <ul class="navigation">
             <li><a href="index.html">Work</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main>
-      <div>
+      <div class="container" id="about">
         <div>
           <h1>About Me</h1>
         </div>
         <div>
-          <picture>
+          <!-- <picture>
             <source
               srcset="http://via.placeholder.com/600x400"
               media="(max-width:767px)"
@@ -51,7 +51,11 @@
               src="img/profilepic/D4A79FC1-5DC1-4D4E-8989-0E0B09780A4A.jpeg"
               alt="My Image"
             />
-          </picture>
+          </picture> -->
+          <img
+            src="img/profilepic/D4A79FC1-5DC1-4D4E-8989-0E0B09780A4A.jpeg"
+            alt="My Image"
+          />
           <div>
             <div>
               <h2>My Story</h2>
@@ -65,7 +69,9 @@
                 learning has influenced my love for creating intuitive UI
                 designs and deliver effective solutions for clients.
               </p>
-              <a href="files/resume.pdf" class="button" target="_blank">Open My Resume</a>
+              <a href="files/resume.pdf" class="button" target="_blank"
+                >Open My Resume</a
+              >
             </div>
             <div>
               <h2>Skills and Tools</h2>
@@ -94,33 +100,37 @@
         </div>
       </div>
     </main>
-    <footer>
-      <div>
-        <h2>Get in Touch</h2>
-        <p>
-          Do you like my work and want to discuss opportunities? Please get in
-          touch. Call: (816) 853-8108. Prefer sending an email?
-        </p>
+    <footer id="contact">
+      <div class="container">
         <div>
-          <a href="mailto:bridget1442@icloud.com" class="button contact">Email me</a>
+          <h2>Get in Touch</h2>
+          <p>
+            Do you like my work and want to discuss opportunities? Please get in
+            touch. Call: (816) 853-8108. Prefer sending an email?
+          </p>
+          <div>
+            <a href="mailto:bridget1442@icloud.com" class="button contact"
+              >Email me</a
+            >
+          </div>
+          <br />
+          <div>
+            <!--Social Media Layout and Placeholders-->
+            <a
+              href="https://www.linkedin.com/in/bridget-schneider-015781190"
+              target="_blank"
+            >
+              <img src="img/logos/Linkedin.svg" alt="LinkedIn logo" />
+            </a>
+            <a href="https://www.behance.net/bridgetschneid1" target="_blank">
+              <img
+                src="img/logos/behance-logo-svgrepo-com.svg"
+                alt="behance logo"
+              />
+            </a>
+          </div>
+          <p>Copyright Bridget Schneider 2024</p>
         </div>
-        <br/>
-        <div>
-          <!--Social Media Layout and Placeholders-->
-          <a
-            href="https://www.linkedin.com/in/bridget-schneider-015781190"
-            target="_blank"
-          >
-            <img src="img/logos/Linkedin.svg" alt="LinkedIn logo" />
-          </a>
-          <a href="https://www.behance.net/bridgetschneid1" target="_blank">
-            <img
-              src="img/logos/behance-logo-svgrepo-com.svg"
-              alt="behance logo"
-            />
-          </a>
-        </div>
-        <p>Copyright Bridget Schneider 2024</p>
       </div>
     </footer>
   </body>

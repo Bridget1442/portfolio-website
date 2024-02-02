@@ -18,17 +18,17 @@
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@500;600&display=swap"
       rel="stylesheet"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
     <header>
-      <div>
+      <div class="container">
         <h1>Bridget Schneider</h1>
         <nav>
-          <ul>
+          <ul class="navigation">
             <li><a href="index.html">Work</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -36,7 +36,7 @@
         </nav>
       </div>
     </header>
-    <main>
+    <main class="container">
       <h1>Refurb-it</h1>
       <picture>
         <source
@@ -92,7 +92,7 @@
       </p>
       <picture>
         <source
-          srcset="img/refurbit1/styleguide@1x.jpg"
+          srcset="img/refurbit1/styleguide1X.jpg"
           media="(max-width:767px)"
         />
         <img src="img/refurbit1/styleguide@2x.jpg" alt="Refurb-it App Mockup" />
@@ -116,7 +116,7 @@
       </p>
       <picture>
         <source
-          srcset="img/refurbit1/usertesting@1x@1x.jpg"
+          srcset="img/refurbit1/usertesting@1x.jpg"
           media="(max-width:767px)"
         />
         <img
@@ -141,32 +141,36 @@
       </picture>
     </main>
     <footer id="contact">
-      <div>
-        <h2>Get in Touch</h2>
-        <p>
-          Do you like my work and want to discuss opportunities? Please get in
-          touch. Call: (816) 853-8108. Prefer sending an email?
-        </p>
+      <div class="container">
         <div>
-          <a href="mailto:bridget1442@icloud.com" class="button contact">Email me</a>
+          <h2>Get in Touch</h2>
+          <p>
+            Do you like my work and want to discuss opportunities? Please get in
+            touch. Call: (816) 853-8108. Prefer sending an email?
+          </p>
+          <div>
+            <a href="mailto:bridget1442@icloud.com" class="button contact"
+              >Email me</a
+            >
+          </div>
+          <br />
+          <div>
+            <!--Social Media Layout and Placeholders-->
+            <a
+              href="https://www.linkedin.com/in/bridget-schneider-015781190"
+              target="_blank"
+            >
+              <img src="img/logos/Linkedin.svg" alt="LinkedIn Icon" />
+            </a>
+            <a href="https://www.behance.net/bridgetschneid1" target="_blank">
+              <img
+                src="img/logos/behance-logo-svgrepo-com.svg"
+                alt="Behanced Icon"
+              />
+            </a>
+          </div>
+          <p>Copyright Bridget Schneider 2024</p>
         </div>
-        <br/>
-        <div>
-          <!--Social Media Layout and Placeholders-->
-          <a
-            href="https://www.linkedin.com/in/bridget-schneider-015781190"
-            target="_blank"
-          >
-            <img src="img/logos/Linkedin.svg" alt="LinkedIn Icon" />
-          </a>
-          <a href="https://www.behance.net/bridgetschneid1" target="_blank">
-            <img
-              src="img/logos/behance-logo-svgrepo-com.svg"
-              alt="Behanced Icon"
-            />
-          </a>
-        </div>
-        <p>Copyright Bridget Schneider 2024</p>
       </div>
     </footer>
   </body>
