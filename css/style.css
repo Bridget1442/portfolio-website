@@ -34,6 +34,10 @@ h3 {
   color: #222222;
 }
 
+.center {
+  text-align: center;
+}
+
 a {
   color: #8250ff;
   text-decoration: none; /* No underlining */
@@ -68,7 +72,7 @@ a:focus {
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #093099; /* width of the border, type, color */
-  transition: 0.2s opacity;
+  transition: all 0.2s ease-in;
 }
 
 .button:hover {
@@ -86,6 +90,7 @@ a:focus {
   color: #093099;
   text-transform: uppercase;
   border: 2px solid #093099;
+  transition: all 0.2s ease-in;
 }
 
 .button.contact:hover {
@@ -107,6 +112,11 @@ a:focus {
 }
 
 .center {
+  text-align: center;
+}
+
+.logo {
+  max-width: 250px;
   text-align: center;
 }
 
@@ -164,3 +174,74 @@ footer > .container > div {
   font-size: 22px;
   font-weight: 300;
 }
+<<<<<<< Updated upstream
+=======
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+    font-size: 18px;
+  }
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  [class*="col-"] {
+    float: left;
+    padding: 10px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #skills-tools {
+    overflow: auto;
+  }
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  [class*="col-"] {
+    float: left;
+    padding: 10px;
+  }
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+}
+>>>>>>> Stashed changes
