@@ -174,8 +174,6 @@ footer > .container > div {
   font-size: 22px;
   font-weight: 300;
 }
-<<<<<<< Updated upstream
-=======
 
 /* ==============================
 Medium devices (640px and larger)
@@ -244,4 +242,3 @@ X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
 }
->>>>>>> Stashed changes
