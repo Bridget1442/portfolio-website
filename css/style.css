@@ -196,7 +196,7 @@ a:focus {
 header {
   background-color: #ffe4c4;
   padding: 10px 0 4px;
-  background: #f8f8f8;
+  background: #ffffff;
   border: solid #bdbdbd 0;
   box-shadow: 0 4px 11px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 4px 11px rgba(0, 0, 0, 0.1);
@@ -218,7 +218,7 @@ nav > ul > li > a {
 }
 
 #hero {
-  background-color: #ffe4c4;
+  background-color: #f2cdca;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
