@@ -158,12 +158,17 @@ a:focus {
 }
 
 .logo {
-  max-width: 150px;
+  max-width: 60px;
   text-align: center;
 }
 
 .navtoggle li:not(:last-child) {
   display: none;
+}
+
+.navtoggle {
+  display: flex;
+  justify-content: space-between;
 }
 
 .navtoggle,
@@ -195,13 +200,20 @@ a:focus {
 
 header {
   background-color: #ffe4c4;
-  padding: 10px 0 4px;
+  padding: 20px 0 20px;
   background: #ffffff;
   border: solid #bdbdbd 0;
+  position: relative;
+}
+
+.box-shadow {
   box-shadow: 0 4px 11px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 4px 11px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 4px 11px rgba(0, 0, 0, 0.1);
-  position: relative;
+}
+
+.large-padding{
+  margin-top: 54px;
 }
 
 nav > ul {
@@ -244,17 +256,18 @@ Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
   .logo {
-    max-width: 250px;
+    max-width: 90px;
   }
   header {
     text-align: unset;
-    padding: 20px 0 13px;
     font-size: 18px;
   }
+
   nav {
     width: auto;
     float: right;
-    margin-top: 4px;
+    display: flex;
+    align-items: center;
   }
   nav > ul {
     margin: 1em 0;
