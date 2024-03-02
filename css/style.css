@@ -212,7 +212,7 @@ header {
   -moz-box-shadow: 0 4px 11px rgba(0, 0, 0, 0.1);
 }
 
-.large-padding{
+.large-padding {
   margin-top: 54px;
 }
 
@@ -307,13 +307,12 @@ Large devices (1024px or larger)
 @media only screen and (min-width: 1024px) {
   header {
     text-align: unset;
-    padding: 20px 0 13px;
+    padding: 20px 0 20px;
   }
 
   nav {
     width: auto;
     float: right;
-    margin-top: 4px;
   }
 
   .col-lg-7 {
